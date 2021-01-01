@@ -10,7 +10,6 @@ import os
 import sys
 
 ## Define colours for the display and create icons for CPU, Temperature, Pressure and Humidity
-
 R = [255, 0, 0] 
 W = [255, 255, 255]
 E = [0, 0, 0]
@@ -84,7 +83,7 @@ t = round(t, 1)
 p = round(p, 1)
 h = round(h, 1)
 
-## Putting the (Day, Month, Date) and (Time) along with sensor readings (CPU)(t)(p)(h) in separate variables
+## Putting the (Day, Month, Date) and (Time) along with sensor readings (CPU)(t)(p)(h) in separate variables to call upon for the display
 msg1 = now.strftime("%A, %B %d")
 msg2 = now.strftime("%-I:%M%p")
 msg3 = measure_temp()
