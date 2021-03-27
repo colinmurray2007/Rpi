@@ -10,5 +10,7 @@ sensing.py - Gather the time, date, CPU temp, sensor info and log them to csv fi
 
 nopreview.py - Use with the Rpi Camera (normal or HQ) to take a picture with the date/time annotated in.
 
+HQcam270321.py - A tidier version of nopreview.py
+
 webcam.sh - calls fswebcam to take a picture with a connected USB camera.
 https://www.raspberrypi.org/documentation/usage/webcams/
